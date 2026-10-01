@@ -1,0 +1,12 @@
+# Database credentials — never commit real passwords
+config/db.php
+
+# Uploaded restaurant/review photos
+uploads/*
+!uploads/.gitkeep
+
+# Editor & OS junk
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
